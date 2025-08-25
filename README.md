@@ -17,7 +17,6 @@ A full-stack system that estimates, monitors, and visualizes crowd density in re
 
 ## Repository Layout
 ```
-yet to decide/
   Backend/
     app/
       db.py
@@ -136,3 +135,4 @@ Sample file: `Backend/.env.example`
 - IoT sensor integration via MQTT/Kafka
 - Role-based views (admin/security/public)
 - Edge deployment (e.g., Raspberry Pi with a lightweight model)
+
