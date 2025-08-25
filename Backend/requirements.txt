@@ -1,0 +1,15 @@
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.6.4
+python-multipart==0.0.9
+websockets==12.0
+opencv-python==4.9.0.80
+numpy==1.26.4
+SQLAlchemy==2.0.29
+asyncpg==0.29.0
+psycopg[binary]==3.1.18
+alembic==1.13.1
+python-dotenv==1.0.1
+# Optional: placeholder for YOLO. Commented to keep image light initially
+# ultralytics==8.1.0
+
