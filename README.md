@@ -4,15 +4,15 @@ A full-stack system that estimates, monitors, and visualizes crowd density in re
 
 ## Tech Stack
 - Backend: FastAPI, WebSockets, OpenCV stubs, asyncpg
-- ML: Placeholder detector (swappable with YOLOv8/MediaPipe)
-- Database: TimescaleDB (PostgreSQL)
-- Frontend: React (Vite), Leaflet.js (maps), Recharts (charts)
+- ML: Placeholder detector 
+- Database: TimescaleDB 
+- Frontend: React, Leaflet.js, Recharts
 - Containerization: Docker, docker-compose
 
 ## Features
 - Real-time crowd count stream via WebSockets
 - Threshold-based alerts exposed in the live payload
-- Interactive map (Leaflet) and time-series chart (Recharts)
+- Interactive map and time-series chart
 - Time-series storage in TimescaleDB for future analysis
 
 ## Repository Layout
