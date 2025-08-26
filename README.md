@@ -120,7 +120,7 @@ Backend environment variables (defaults used by docker-compose):
 Sample file: `Backend/.env.example`
 
 ## Replacing the Detector with a Real Model
-- Implement loading a model (e.g., YOLOv8 via `ultralytics`) in `Backend/app/services/detector.py`.
+- Implement loading a model in `Backend/app/services/detector.py`.
 - Replace `detect_once` to read frames from a camera/RTSP and run inference.
 - Optionally create a video capture service and a per-location pipeline with tracking to stabilize counts.
 
@@ -134,5 +134,5 @@ Sample file: `Backend/.env.example`
 - Predictive analytics using stored time-series
 - IoT sensor integration via MQTT/Kafka
 - Role-based views (admin/security/public)
-- Edge deployment (e.g., Raspberry Pi with a lightweight model)
+- Edge deployment
 
