@@ -1,6 +1,6 @@
 # Real-Time Crowd Management System
 
-A full-stack system that estimates, monitors, and visualizes crowd density in real time using computer vision and time-series storage. It provides live dashboards, WebSocket updates, and persistence for analytics.
+A full-stack system that estimates, monitors, and visualizes crowd density in real time using computer vision and time-series storage. It provides live dashboards, WebSocket updates, and persistence for analytics
 
 ## Tech Stack
 - Backend: FastAPI, WebSockets, OpenCV stubs, asyncpg
